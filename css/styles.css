@@ -253,7 +253,7 @@ cite {
 .col-4,
 .col-3-2span {
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 .section-content {
   width: 100%;
@@ -501,7 +501,6 @@ section:last-of-type .section-content {
 }
 .card {
   width: 100%;
-  margin-bottom: 30px
 }
 .card img {
   margin-bottom: 20px;
@@ -541,4 +540,10 @@ footer a {
 /*overrides*/
 .owl-theme .owl-dots .owl-dot {
   width: auto;
+}
+iframe.contact-form {
+    border: 0;
+    width: 100%;
+    height: auto;
+    min-height: 900px;
 }
