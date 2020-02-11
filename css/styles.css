@@ -525,17 +525,23 @@ section:last-of-type .section-content {
 }
 footer img.logo {
   background: #fff;
-  margin: 10px;
   float: left;
+  width: 100%;
   max-width: 200px;
 }
 footer a {
   display: flex;
   background: #fff;
   align-items: center;
-  padding: 0 10px;
+  padding: 10px 20px;
   border-radius: 20px;
   margin: 10px;
+  width: calc(20% - 20px);
+}
+@media screen and (max-width: 799px) {
+  footer a {
+    width: calc(33% - 20px);
+  }
 }
 .event {
   position: relative;
