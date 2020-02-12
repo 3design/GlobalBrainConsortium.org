@@ -555,6 +555,12 @@ footer a {
 section li {
   margin-bottom: 10px;
 }
+.not-active {
+  background-color: #dcdcdc;
+}
+.not-active:hover {
+  background-color: #8c8c8c;
+}
 /*overrides*/
 .owl-theme .owl-dots .owl-dot {
   width: auto;
