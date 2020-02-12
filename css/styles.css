@@ -552,6 +552,9 @@ footer a {
   bottom: 10px;
   right: 10px;
 }
+section li {
+  margin-bottom: 10px;
+}
 /*overrides*/
 .owl-theme .owl-dots .owl-dot {
   width: auto;
