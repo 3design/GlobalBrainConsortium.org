@@ -467,6 +467,9 @@ section:last-of-type .section-content {
     max-height: 250px;
     overflow: hidden;
 }
+.banner-offset {
+  margin-top: -7%; 
+}
 .page-title {
   position: relative;
   max-width: 1024px;
