@@ -572,6 +572,25 @@ section li {
 .not-active:hover {
   background-color: #8c8c8c;
 }
+.slider-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+}
+.slider-overlay-cta {
+  position: fixed;
+  width: 200px;
+  left: calc(50% - 100px);
+  top: calc(50% - 70px);
+  padding: 15px 20px;
+  background: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+.slider-overlay-cta h2 {
+  color: #fff;
+}
 /*overrides*/
 
 .icon {
@@ -585,4 +604,53 @@ iframe.contact-form {
     width: 100%;
     height: auto;
     min-height: 900px;
+}
+#slick-slider {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+}
+#slick-slider.slick-initialized {
+    visibility: visible;
+    opacity: 1;    
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index: 9999;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #343434;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: absolute;
+    z-index: 9999;
+}
+.slick-prev {
+  left: -20px;
+}
+.slick-next {
+  right: -20px;
+}
+.slick-slider img {
+  padding: 0 20px;
 }
