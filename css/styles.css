@@ -573,8 +573,12 @@ section li {
   background-color: #8c8c8c;
 }
 /*overrides*/
-.owl-theme .owl-dots .owl-dot {
-  width: auto;
+
+.icon {
+  font-size: 5em;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
 }
 iframe.contact-form {
     border: 0;
