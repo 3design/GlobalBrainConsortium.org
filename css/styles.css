@@ -632,7 +632,7 @@ iframe.contact-form {
     border: none;
     outline: none;
     background: transparent;
-    z-index: 9999;
+    z-index: 999;
 }
 .slick-prev:before, .slick-next:before {
     font-family: 'slick';
@@ -643,7 +643,7 @@ iframe.contact-form {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: absolute;
-    z-index: 9999;
+    z-index: 999;
 }
 .slick-prev {
   left: -20px;
