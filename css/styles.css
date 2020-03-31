@@ -508,7 +508,7 @@ section:last-of-type .section-content {
 }
 @media screen and (min-width: 640px) {
   .images-5 {
-    width: 253design%;
+    width: 25%;
     padding: 10px;
     float: left;
   }
