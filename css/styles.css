@@ -321,12 +321,12 @@ cite {
     margin: 0;
   }
   .col-3 {
-    width: 33%;
+    width: 33.33%;
     float: left;
     margin: 0;
   }
   .col-3-2span {
-    width: 66%;
+    width: 66.66%;
     float: left;
     margin: 0
   }
@@ -554,7 +554,7 @@ footer a {
 }
 @media screen and (max-width: 799px) {
   footer a {
-    width: calc(33% - 20px);
+    width: calc(33.33% - 20px);
   }
 }
 .event {
