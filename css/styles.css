@@ -513,6 +513,13 @@ section:last-of-type .section-content {
     float: left;
   }
 }
+@media screen and (min-width: 800px) {
+  .images-5 {
+    width: 16.666%;
+    padding: 10px;
+    float: left;
+  }
+}
 .card {
   width: 100%;
 }
