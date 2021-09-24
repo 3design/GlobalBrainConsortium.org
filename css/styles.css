@@ -520,6 +520,11 @@ section:last-of-type .section-content {
     float: left;
   }
 }
+.name-text {
+  width: auto;
+  padding: 10px;
+  float: left;
+}
 .card {
   width: 100%;
 }
@@ -601,6 +606,7 @@ section li {
 .slider-overlay-cta h2 {
   color: #fff;
 }
+
 /*overrides*/
 
 .icon {

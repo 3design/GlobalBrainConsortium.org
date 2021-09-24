@@ -12,20 +12,18 @@
 
   <!-- Styles -->
   <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="css/owl.carousel.css">
-  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" type="text/css" href="css/nav-styles.css" />
 
   <!-- Scripts -->
   <!-- <script src="js/jquery-2.2.2.js" type="text/javascript"></script> -->
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
   <script type="text/javascript" src="js/drop-down.js"></script>
   <script src="js/jquery.matchHeight.js" type="text/javascript"></script>
   <script src="js/owl.carousel.min.js"></script>
+  <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
 
 </head>
 <body>
@@ -77,10 +75,36 @@
           <h1>EEG Norms</h1>
         </section>
         <section>
+        <div class="section-content white-bg">
+          <div id="slick-slider" class="">
+<!--             <div class="slider-overlay">
+              <a href="gbc2020-survey.html"><img src="images/slider/survey.jpg" alt="Slide background for Survey. Click to go to survey."></a>
+            </div> -->
+            <div>
+              <img src="images/slider/eeg-norm-1.jpg" alt="Slide background">
+            </div>
+            <div>
+              <img src="images/slider/eeg-norm-2.jpg" alt="Slide background">
+            </div>
+            <div>
+              <img src="images/slider/eeg-norm-3.jpg" alt="Slide background">
+            </div>
+            <div>
+              <img src="images/slider/eeg-norm-4.jpg" alt="Slide background">
+            </div>
+            <div>
+              <img src="images/slider/eeg-norm-5.jpg" alt="Slide background">
+            </div>
+            <div>
+              <img src="images/slider/eeg-norm-6.jpg" alt="Slide background">
+            </div>
+          </div>
+        </div>
+      </section>
+        <section>
           <div class="section-content white-bg">
             <div class="col-2 pad-left">
               <h2 class="header-underline">Overview</h2>
-              <img src="images/norms-globalmap.jpg">
               <p>This project is a multi-national EEG normative initiative for creating international standards for MEEG analysis, under the focus of the Global Brain Consortium (GBC). The initiative is led by Dr. Pedro Valdes-Sosa, at the University of Electronic Science and Technology of China (UESTC) and it joins several scientists all around the world.</p>             
               <br><p><b>Background</b></p>
               <p>The pilot phase of the project started in March 2021. This initial proof of concept aims to calculate populational normative descriptors at the scalp level and with a reduced set of 19 electrodes of the international 1020 system.</p>
@@ -120,7 +144,6 @@
             </div>
             <div class="col-2 pad-left">
               <h2 class="header-underline">Goals</h2>
-              <img src="images/norms-blackplot-global-normative-surface.jpg" size="80%">
               <ul>
                 <p><br><b>Creating Signatures to describe EEG activity</b></p>
                 <li>
@@ -169,50 +192,163 @@
           <div class="section-content white-bg">
             <div class="">
               <h2 class="header-underline">Participants</h2>
+              <h3>University of Electronic Science and Technology of China (UESTC)  </h3>
               <div class="flex flex-start">
-                <div class="images-5">
-                  <img src="images/steerage/gary_egan.jpg">
-                  <p class="image-label">Gary Egan,<br> Monash University</p>
+                <div class="name-text">
+                  <p class="image-label">Pedro A. Valdes-Sosa </p>
                 </div>
-                <div class="images-5">
-                  <img src="images/steerage/maryann_martone.jpg">
-                  <p class="image-label">Maryann Martone,<br> UCSD</p>
+                <div class="name-text">
+                  <p class="image-label">Deirel Paz-Linares </p>
                 </div>
-                <div class="images-5">
-                  <img src="images/steerage/jbp.png">
-                  <p class="image-label">JB Poline,<br> McGill University</p>
+                <div class="name-text">
+                  <p class="image-label">Shiang Hu </p>
                 </div>
-                <div class="images-5">
-                  <img src="images/steerage/katrin_amunts.jpg">
-                  <p class="image-label">Katrin Amunts,<br> Julich</p>
+                <div class="name-text">
+                  <p class="image-label">Min Li </p>
                 </div>
-                <div class="images-5">
-                  <img src="images/steerage/alan_evans.jpg">
-                  <p class="image-label">Alan Evans,<br> McGill University</p>
+                <div class="name-text">
+                  <p class="image-label">Maria L. Bringas-Vega </p>
                 </div>
-                <div class="images-5">
-                  <img src="images/steerage/jane_roskams.jpg">
-                  <p class="image-label">Jane Roskams,<br> UBC</p>
+                <div class="name-text">
+                  <p class="image-label">Ariosky Areces-Gonzalez </p>
                 </div>
-                <div class="images-5">
-                  <img src="images/steerage/pedro_valdes-sosa.jpg">
-                  <p class="image-label">Pedro Valdes-Sosa,<br> CNEURO</p>
+                <div class="name-text">
+                  <p class="image-label">Xu Lei </p>
                 </div>
-                <div class="images-5">
-                  <img src="images/steerage/bartha_knoppers.jpg">
-                  <p class="image-label">Bartha Knoppers,<br> McGill University</p>
+                <div class="name-text">
+                  <p class="image-label">Rigel Wang </p>
                 </div>
-                <div class="images-5">
-                  <img src="images/steerage/paul_thompson.jpg">
-                  <p class="image-label">Paul Thompson,<br> USC</p>
+                <div class="name-text">
+                  <p class="image-label">Dezhong Yao </p>
                 </div>
-                <div class="images-5">
-                  <img src="images/steerage/greg_farber.png">
-                  <p class="image-label">Greg Farber,<br> NIH</p>
+                <div class="name-text">
+                  <p class="image-label">Ying Wang </p>
                 </div>
-                <div class="images-5">
-                  <img src="images/steerage/dezhong_yao.jpg">
-                  <p class="image-label">Dezhong Yao,<br> UESTC</p>
+              </div>
+              <h3>Montreal Neurological Institute </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Alan C. Evans </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Jorge F. Bosch-Bayard </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Christine Rogers </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Jessica Stone </p>
+                </div>
+              </div>
+              <h3>Cuban Neuroscience Center (CNeuro)  </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Lidice Galan-Garcia </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Mitchell J. Valdes-Sosa </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Ana Calzada Reyes </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Trinidad A. Virues-Alba </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Eduardo Aubert-Vazquez </p>
+                </div>
+              </div>
+              <h3>Federal Research Center for Information and Computational Technologies</h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Pavel Rudych </p>
+                </div>
+              </div>
+              <h3>Institute of Cytology and Genetics Siberian Branch</h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Alexander N. Savostyanov</p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Nataliya S. Milakhina</p>
+                </div>
+              </div>
+              <h3>Universidad de Antioquia, Colombia </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Carlos A. Tobon-Quintero </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">John F. Ochoa-Gomez </p>
+                </div>
+              </div>
+              <h3>Universiti Sains Malaysia </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Mohd Faizal </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Mohd Zulkifly </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Jafri Malin Abdullah </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Hazim Omar </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Muhammad R. Abdul Rahman </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Aini Ismafairus Abd Hamid </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Faruque Reza </p>
+                </div>
+              </div>
+              <h3>University of Zurich, Switzerland </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Marius Tröndle </p>
+                </div>
+                <div class="name-text">
+                  <p class="image-label">Nicolas Langer </p>
+                </div>
+              </div>
+              <h3>University Hospital of Clinical Psychiatry, Bern, Switzerland </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Thomas Koenig </p>
+                </div>
+              </div>
+              <h3>Brain Research Laboratories, New York University, USA  </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Leslie Prichep  </p>
+                </div>
+              </div>
+              <h3>Mass General Hospital for Children, Boston, USA </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Janina Galler  </p>
+                </div>
+              </div>
+              <h3>Centro Internacional de Restauracion Neurológica (CIREN), Cuba </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Lilia Morales-Chacon </p>
+                </div>
+              </div>
+              <h3>CITED, Cuba </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Daysi Garcia  </p>
+                </div>
+              </div>
+              <h3>Max Planck Institute for Human Cognitive and Brain Sciences, Germany </h3>
+              <div class="flex flex-start">
+                <div class="name-text">
+                  <p class="image-label">Arno Villringer (Director) </p>
                 </div>
               </div>
             </div>
@@ -228,27 +364,40 @@
           </div>
         </footer>
       </div> <!-- end of main-wrapper -->
-      <script>
-        $(function(){
-          $("#showmenu").click(function(e){
-            $("#menu").slideUp();
-            if ($(this).next().is(":hidden")){
-              $(this).next().slideDown();
-            }
-          });
-        });
-      </script>
-      <script type="text/javascript">
-        $(document).ready(function(){
-          $(".owl-carousel").owlCarousel({
-            items:1,
-            loop:true,
-            autoplay:true,
-            autoplayTimeout:5000,
-            autoplayHoverPause:true
+    <script>
+      $(function(){
+        $("#showmenu").click(function(e){
+          $("#menu").slideUp();
+          if ($(this).next().is(":hidden")){
+            $(this).next().slideDown();
           }
-          );
         });
-      </script>
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          items:1,
+          loop:true,
+          autoplay:true,
+          autoplayTimeout:5000,
+          autoplayHoverPause:true
+        }
+        );
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).on('ready', function() {
+        $('#slick-slider').slick({
+          dots: true,
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 5000,
+          draggable: true,
+          mobilefirst: true,
+          pauseonhover: true
+        });
+      });
+    </script>
     </body>
     </html>
