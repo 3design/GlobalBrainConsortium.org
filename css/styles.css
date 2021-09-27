@@ -177,7 +177,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: stretch;
 }
 .flex-center {
