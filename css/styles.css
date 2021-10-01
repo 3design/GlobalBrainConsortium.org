@@ -467,7 +467,7 @@ section:last-of-type .section-content {
   position: relative;
 }
 .top-image {
-    max-height: 150px;
+    max-height: 175px;
     overflow: hidden;
 }
 .banner-offset {
