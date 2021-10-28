@@ -445,7 +445,7 @@ section:first-of-type {
   padding-top: 63px;
 }
 section:last-of-type .section-content {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   overflow: auto;
 }
 .screen-reader {
