@@ -353,6 +353,9 @@ cite {
     padding: 0 0 15px;
   }
 }
+.float-right {
+  float: right;
+}
 /* navigation */
 nav.site-nav {
   position: fixed;
