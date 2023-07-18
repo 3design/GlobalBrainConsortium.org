@@ -619,6 +619,11 @@ section li {
 .slider-overlay-cta h2 {
   color: #fff;
 }
+.pub-img {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
 
 /*overrides*/
 
