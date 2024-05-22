@@ -624,6 +624,9 @@ section li {
   height: auto;
   margin: 0 auto;
 }
+.list-margin {
+  margin-left: 20px;
+}
 
 /*overrides*/
 
