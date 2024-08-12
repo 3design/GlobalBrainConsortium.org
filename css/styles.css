@@ -628,6 +628,9 @@ section li {
 .list-margin {
   margin-left: 20px;
 }
+.native-width {
+  width: auto;
+}
 
 /*overrides*/
 
